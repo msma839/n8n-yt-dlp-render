@@ -6,6 +6,6 @@ RUN apk add --no-cache \
       python3 \
       py3-pip \
       ffmpeg \
-  && pip3 install --no-cache-dir -U yt-dlp
+      yt-dlp
 
 USER node
